@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background: white;
+}
+header{
+    height: 50px;
+    background: #732445;
+}
+a{
+    color: red;
+}
+
+.navegacion{
+    float: right;
+}
+
+.navegacion li{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    float: left;
+    border: 1px solid rgb(134, 12, 12);
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+article:hover{
+    border: 1px solid rgb(66, 2, 2);
+    box-shadow: 0px 0px 15px rgb(32, 32 , 32);
+    background: #210613;
+}
+
+article:hover h2{
+    color: white;
+    transition: all 500ms;
+}
+article:hover p{
+    color: white;
+}
+
+article h2{
+    text-align: center;
+}
+
+article img{
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*     margin: 0px auto; */
+
+#contenedor1{
+    float: left;
+    width: 100%;
+    border: 1px solid rgb(216, 11, 182);
+    box-shadow: 0px 0px 10px gray;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+@keyframes cambiarcolor{
+    0%{
+        background: #210613;
+    }
+    50%{
+        background:#0a1f27 ;
+    }
+    100%{
+        background: black;
+    }
+}
+
+
+#contenedor2{
+    border: 2px solid #072829;
+    box-shadow: 0px 0px 10px rgb(65, 65, 65);
+    margin-bottom: 15px;
+    padding: 10px;
+    margin: 10px;
+    animation-name: cambiarcolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}           
+.parrafoverde{
+    color: white;
+}
+.parrafoazul{
+    color: blue;
+    width: 250px;
+}
+
+footer{
+    background: #0a1f27;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
